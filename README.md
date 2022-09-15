@@ -30,10 +30,13 @@ An updated lidar-initial odometry package, [LIO-SAM](https://github.com/TixiaoSh
 You can use the following commands to download and compile the package.
 
 ```
-cd ~/catkin_ws/src
-git clone https://github.com/RobustFieldAutonomyLab/LeGO-LOAM.git
+cd ~
+mkdir -p catkin_ws/src
+cd catkin_ws/src
+git clone https://github.com/kaigomes7/LeGO-LOAM.git
 cd ..
 catkin_make -j1
+source devel/source.bash
 ```
 When you compile the code for the first time, you need to add "-j1" behind "catkin_make" for generating some message types. "-j1" is not needed for future compiling.
 
