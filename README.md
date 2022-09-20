@@ -36,7 +36,7 @@ cd catkin_ws/src
 git clone https://github.com/kaigomes7/LeGO-LOAM.git
 cd ..
 catkin_make -j1
-source devel/source.bash
+source devel/setup.bash
 ```
 When you compile the code for the first time, you need to add "-j1" behind "catkin_make" for generating some message types. "-j1" is not needed for future compiling.
 
